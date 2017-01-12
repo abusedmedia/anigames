@@ -1,6 +1,6 @@
 function setUpBackground(){
     
-    var back = new PIXI.Sprite( rsc['images/fondale_low.jpg'].texture )
+    var back = new PIXI.Sprite( rsc['images/fondale_low.jpg'+v].texture )
     mainContainer.addChild(back)
     back.scale.set(factorH, factorH)
     
