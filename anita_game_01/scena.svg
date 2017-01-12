@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3000 900" enable-background="new 0 0 3000 900" xml:space="preserve">
+<g id="back">
+	<image overflow="visible" enable-background="new    " width="3000" height="900" xlink:href="images/1.jpg" >
+	</image>
+</g>
+<g id="persone">
+	<g id="anita">
+		
+			<image overflow="visible" enable-background="new    " width="271" height="665" xlink:href="images/anita.png"  transform="matrix(0.6812 0 0 0.6812 670.6789 287.4755)">
+		</image>
+	</g>
+	<g id="maya">
+		
+			<image overflow="visible" enable-background="new    " width="271" height="665" xlink:href="images/maya.png"  transform="matrix(0.6812 0 0 0.6812 356.9376 209.4677)">
+		</image>
+	</g>
+	<g id="petra">
+		
+			<image overflow="visible" enable-background="new    " width="271" height="665" xlink:href="images/petra.png"  transform="matrix(0.6812 0 0 0.6812 1112.1698 209.4677)">
+		</image>
+	</g>
+	<g id="rachele">
+		
+			<image overflow="visible" enable-background="new    " width="271" height="665" xlink:href="images/rachele.png"  transform="matrix(0.6812 0 0 0.6812 1637.2262 304.7416)">
+		</image>
+	</g>
+</g>
+</svg>

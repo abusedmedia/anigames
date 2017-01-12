@@ -1,0 +1,3 @@
+- first version with first character drawing
+- use of svg from illustrator and first drag interaction
+- easy to set up the scene but some limitation

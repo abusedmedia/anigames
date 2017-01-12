@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+svg{
+    height:100%;
+    overflow: inherit;
+}
+
+svg *{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;  
+    -khtml-user-select: none;   
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none; 
+}
+svg text{
+    pointer-events: none;
+}
+
+#back, #back > img{
+    height: 100%;
+}
+
+#back{
+    position: absolute;
+    transform: translate3d(0,0,0);
+    will-change: transform;
+}
+
+.item{
+    position: absolute;
+    height: 100%;
+}
