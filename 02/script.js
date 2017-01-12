@@ -7,7 +7,7 @@ var h = $(window).height()
 var factorW = w/original_width
 var factorH = h/original_height
 
-var renderer = PIXI.autoDetectRenderer(original_width*factorH,h, {antialias:true, transparent:false})
+var renderer = PIXI.autoDetectRenderer(w,h, {antialias:false, transparent:false})
 document.body.appendChild(renderer.view)
 
 var stage = new PIXI.Container()

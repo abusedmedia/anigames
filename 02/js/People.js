@@ -6,7 +6,7 @@ function setUpPeople(){
         
         p.buttonMode = true
         p.interactive = true
-        p.scale.set(.3)
+        p.scale.set(.42)
         p.x = 100 + 200*i
         p.y = h/2 + 50
         p.startPos = {x:p.x, y:p.y}
