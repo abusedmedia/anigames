@@ -1,5 +1,5 @@
-var original_width = 4600
-var original_height = 800
+var original_width = 2300
+var original_height = 400
 
 var w = $(window).width()
 var h = $(window).height()

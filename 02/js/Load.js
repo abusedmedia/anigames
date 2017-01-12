@@ -13,7 +13,7 @@ personaggi.forEach(function(d, i){
 })
 
 PIXI.loader
-    .add('images/fondale.jpg')
+    .add('images/fondale_low.jpg')
     .load(onLoaded)
 
 function onLoaded(){
