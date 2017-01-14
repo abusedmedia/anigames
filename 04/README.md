@@ -1,0 +1,2 @@
+- rewrite completely on PIXI engine
+- lost momentum but gain a solid base for further dev

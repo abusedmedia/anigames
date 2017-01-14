@@ -1,0 +1,7 @@
+{
+  "name": "anigames",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "pixi.js": "^4.3.2"
+  }
+}
