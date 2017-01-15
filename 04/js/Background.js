@@ -30,10 +30,10 @@ function setUpBackground(){
             this.x = this.data.global.x - this.startX
         } 
     }
-    console.log((original_width*factorH-w)*-1)
+    
     function onUp(e){
         this.dragging = false
-        TweenLite.to(this, 1, {throwProps:{x:{velocity:"auto", max:0, min:(original_width*factorH-w)*-1}}, ease:Strong.easeOut});
+        TweenLite.to(this, 1, {throwProps:{x:{velocity:"auto", max:0, min:(calcWidth-w)*-1}}, ease:Strong.easeOut});
     }
     
 }
