@@ -1,4 +1,4 @@
-var v = '?t=2'
+var v = '?t=3'
 var personaggi = ['images/anita.png'+v, 
                   'images/petra.png'+v, 
                   'images/rachele.png'+v, 
