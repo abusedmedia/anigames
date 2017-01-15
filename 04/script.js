@@ -6,6 +6,7 @@ var h = $(window).height()
 
 var factorW = w/original_width
 var factorH = h/original_height
+console.log(factorW, factorH)
 
 var renderer = PIXI.autoDetectRenderer(w,h, {antialias:false, transparent:false})
 document.body.appendChild(renderer.view)

@@ -13,20 +13,27 @@ function setUpBackground(){
         .on('mousemove', onMove)
         .on('touchmove', onMove)
         .on('mouseup', onUp)
+        .on('mouseupoutside', onUp)
         .on('touchend', onUp)
+        .on('touchendoutside', onUp)
     
     function onDown(e){
         this.data = e.data
         this.dragging = true
+        ThrowPropsPlugin.untrack(this, "x");
+        ThrowPropsPlugin.track(this, "x");
         this.startX = e.data.global.x - this.x
     }
+    
     function onMove(e){
         if(this.dragging){
             this.x = this.data.global.x - this.startX
         } 
     }
+    console.log((original_width*factorH-w)*-1)
     function onUp(e){
         this.dragging = false
+        TweenLite.to(this, 1, {throwProps:{x:{velocity:"auto", max:0, min:(original_width*factorH-w)*-1}}, ease:Strong.easeOut});
     }
     
 }

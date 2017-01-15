@@ -15,10 +15,15 @@ function setUpPeople(){
             .on('touchstart', onDown)
         
             .on('mouseup', onUp)
+            .on('mouseupoutside', onUp)
             .on('touchend', onUp)
+            .on('touchendoutside', onUp)
         
             .on('mousemove', onMove)
             .on('touchmove', onMove)
+        
+        
+        
     })
     
     
@@ -29,6 +34,8 @@ function setUpPeople(){
         this.startPos.x = e.data.global.x - this.x
         this.startPos.y = e.data.global.y - this.y
         this.parent.setChildIndex(this, this.parent.children.length-1)
+        ThrowPropsPlugin.untrack(this, "x,y");
+        ThrowPropsPlugin.track(this, "x,y");
         e.stopPropagation()
     }
     
@@ -36,6 +43,9 @@ function setUpPeople(){
         this.alpha = 1
         this.dragging = false
         this.data = null
+        
+        TweenLite.to(this, 1, {throwProps:{x:{velocity:"auto", max:1500, min:0}, y:{velocity:"auto", max:700, min:0}}, ease:Strong.easeOut});
+        //ThrowPropsPlugin.untrack(this, "x,y");
         e.stopPropagation()
     }
     

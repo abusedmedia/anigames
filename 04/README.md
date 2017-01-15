@@ -1,2 +1,5 @@
-- rewrite completely on PIXI engine
-- lost momentum but gain a solid base for further dev
+- more characters colored
+
+TODO
+
+- drag and drop on outer zone, this might become a tutorial
